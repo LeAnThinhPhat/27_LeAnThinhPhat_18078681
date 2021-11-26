@@ -29,7 +29,7 @@ public class MapScreen extends AppCompatActivity implements OnMapReadyCallback {
         mMap.setMinZoomPreference(19.0f);
         mMap.setMaxZoomPreference(18.0f);
         // Add a marker in Sydney and move the camera
-        LatLng sg = new LatLng( 10.822602094591806, 106.68750444153564);
+        LatLng sg = new LatLng( 10.822538866549818, 106.6874615265981);
         mMap.addMarker(new MarkerOptions().position(sg).title("IUH"));
         mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(sg,15f));
     }
